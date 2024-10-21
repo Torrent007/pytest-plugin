@@ -1,8 +1,8 @@
 plugin:
   id: pytest-plugin
-  displayname: Pytest Plugin
+  displayname: PyTest Plugin
   description: It's only used for testing purpose!
-  version: 0.0.1
+  version: 1.0.0
   icon:
     name: fa-solid fa-globe
     color: blue
