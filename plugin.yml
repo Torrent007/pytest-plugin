@@ -1,0 +1,29 @@
+plugin:
+  id: pytest-plugin
+  displayname: Pytest Plugin
+  description: It's only used for testing purpose!
+  version: 0.0.1
+  icon:
+    name: fa-solid fa-globe
+    color: blue
+  git_repo:
+    url: https://github.com/Torrent007/pytest-plugin.git
+    branch: master
+  documentation: https://github.com/Torrent007/pytest-plugin/blob/master/README.md
+  author: Fabien EGRET
+  contributors: []
+  roles:
+    - name: Full Control
+      description: Complete control over the plugin
+      ldap_group: LDAP_PYTEST_GROUP_FULLCONTROL
+    - name: Users
+      description: Minimal access to the plugin.
+      ldap_group: LDAP_PYTEST_GROUP_USERS
+
+frontend: 
+  root_url: pytest
+  title: pytest
+  sidebar:
+    - title: PyTest
+      link: /sample
+      icon: fa-solid fa-globe
