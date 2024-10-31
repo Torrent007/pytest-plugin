@@ -2,7 +2,7 @@ plugin:
   id: pytest-plugin
   displayname: PyTest Plugin
   description: It's only used for testing purpose!
-  version: 1.0.0
+  version: 1.0.1
   icon:
     name: fa-solid fa-globe
     color: blue
@@ -19,6 +19,9 @@ plugin:
     - name: Users
       description: Minimal access to the plugin.
       ldap_group: LDAP_PYTEST_GROUP_USERS
+
+api:
+  root_url: pytest
 
 frontend: 
   root_url: pytest
